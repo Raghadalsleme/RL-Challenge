@@ -1,0 +1,18 @@
+---
+
+### 3. محتوى ملف `requirements.txt`
+هذا الملف يضمن توافق النسخ، خاصة عند العمل محلياً أو لتوثيق البيئة البرمجية.
+
+**انسخ النص التالي وضعه في ملف باسم `requirements.txt`:**
+
+```text
+gymnasium==0.29.1
+gymnasium[box2d]==0.29.1
+stable-baselines3==2.2.1
+shimmy==1.3.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+box2d-py==2.3.8
+swig==4.1.1
+pygame>=2.1.0
+torch>=2.0.0
